@@ -73,6 +73,39 @@ build ejercicio1.exe: CXX_EXECUTABLE_LINKER__ejercicio1_Debug CMakeFiles/ejercic
   TARGET_IMPLIB = libejercicio1.dll.a
   TARGET_PDB = ejercicio1.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ejercicio2
+
+
+#############################################
+# Order-only phony target for ejercicio2
+
+build cmake_object_order_depends_target_ejercicio2: phony || CMakeFiles/ejercicio2.dir
+
+build CMakeFiles/ejercicio2.dir/ejercicio2.cpp.obj: CXX_COMPILER__ejercicio2_unscanned_Debug C$:/Users/Daniel/Documents/utec-cs-aed-2024-1/hw3-homework_tablas_hash/ejercicio2.cpp || cmake_object_order_depends_target_ejercicio2
+  DEP_FILE = CMakeFiles\ejercicio2.dir\ejercicio2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ejercicio2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ejercicio2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejercicio2
+
+
+#############################################
+# Link the executable ejercicio2.exe
+
+build ejercicio2.exe: CXX_EXECUTABLE_LINKER__ejercicio2_Debug CMakeFiles/ejercicio2.dir/ejercicio2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ejercicio2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ejercicio2.exe
+  TARGET_IMPLIB = libejercicio2.dll.a
+  TARGET_PDB = ejercicio2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -101,6 +134,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build ejercicio1: phony ejercicio1.exe
 
+build ejercicio2: phony ejercicio2.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +144,7 @@ build ejercicio1: phony ejercicio1.exe
 #############################################
 # Folder: C:/Users/Daniel/Documents/utec-cs-aed-2024-1/hw3-homework_tablas_hash/cmake-build-debug
 
-build all: phony ejercicio1.exe
+build all: phony ejercicio1.exe ejercicio2.exe
 
 # =============================================================================
 # Built-in targets

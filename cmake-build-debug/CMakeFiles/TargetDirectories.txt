@@ -1,3 +1,4 @@
 C:/Users/Daniel/Documents/utec-cs-aed-2024-1/hw3-homework_tablas_hash/cmake-build-debug/CMakeFiles/ejercicio1.dir
+C:/Users/Daniel/Documents/utec-cs-aed-2024-1/hw3-homework_tablas_hash/cmake-build-debug/CMakeFiles/ejercicio2.dir
 C:/Users/Daniel/Documents/utec-cs-aed-2024-1/hw3-homework_tablas_hash/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Daniel/Documents/utec-cs-aed-2024-1/hw3-homework_tablas_hash/cmake-build-debug/CMakeFiles/rebuild_cache.dir

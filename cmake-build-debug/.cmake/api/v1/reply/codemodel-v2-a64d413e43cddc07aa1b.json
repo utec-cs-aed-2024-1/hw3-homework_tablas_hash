@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "hw3-homework_tablas_hash",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "ejercicio1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ejercicio1-Debug-e5f22f151ca9e9a5b01e.json",
 					"name" : "ejercicio1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio2-Debug-f0bbc752dbbeea4ef39c.json",
+					"name" : "ejercicio2",
 					"projectIndex" : 0
 				}
 			]
